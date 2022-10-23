@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    background-color: royalblue;
+    align-items: center;
+}
+
+canvas{
+    border: 10px solid blue;
+    border-radius: 10px;
+}
+
+h1{
+    background-color: white;
+    border-radius: 10px;
+    width:50%;
+    margin-left: 10%;
+    margin-top: 0px;
+    border: 10px red solid;
+    display: inline-block;
+}
+
+.heading{
+    display: inline;
+    width: 100%;
+}
+
+.heading button{
+    float: right;
+    height: 60px;
+    border: 10px red solid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.start{
+    width: 20%;
+    height: 60px;
+    border: 10px red solid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#status{
+    width: 50%;
+    height: 60px;
+    border: 10px red solid;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 25%;
+}
+
+#footer{
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+#game{
+    margin-bottom: 50px;
+    display: block;
+}
+
+.webcam{
+    width: 800px;
+    height: 400px;
+    display: block;
+    margin-left: 20%;
+}
