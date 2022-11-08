@@ -1,71 +1,41 @@
-body{
-    text-align: center;
-    background-color: royalblue;
-    align-items: center;
-}
 
-canvas{
-    border: 10px solid blue;
-    border-radius: 10px;
+.heading
+{
+width: 100%;
+text-align: left;
 }
-
-h1{
-    background-color: white;
-    border-radius: 10px;
-    width:50%;
-    margin-left: 10%;
-    margin-top: 0px;
-    border: 10px red solid;
-    display: inline-block;
-}
-
-.heading{
+.heading h3{
     display: inline;
-    width: 100%;
 }
 
 .heading button{
     float: right;
-    height: 60px;
-    border: 10px red solid;
-    border-radius: 10px;
-    background-color: white;
+    border: 1px solid white;
 }
 
-.start{
-    width: 20%;
-    height: 60px;
-    border: 10px red solid;
-    border-radius: 10px;
-    background-color: white;
+#start ,#status, #restart
+{
+font-size: 22px;
 }
 
-#status{
-    width: 50%;
-    height: 60px;
-    border: 10px red solid;
-    border-radius: 10px;
-    background-color: white;
-    margin-left: 25%;
+.modal-dialog
+{
+    width: 70%;
 }
-
-#footer{
-    background-color: red;
-    text-align: center;
-    font-size: 30px;
-    margin: 0;
-    position:fixed;
-    bottom: 0;
-    width: 100%;
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
 }
-#game{
-    margin-bottom: 50px;
-    display: block;
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
 }
-
-.webcam{
-    width: 800px;
-    height: 400px;
-    display: block;
-    margin-left: 20%;
-}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
